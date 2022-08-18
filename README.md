@@ -1,2 +1,2 @@
 # 2nd-center-image
-Inline-Block exercise to make a nav and grid to center image
+Using Inline-Block and Grid to create a nav and center an image
