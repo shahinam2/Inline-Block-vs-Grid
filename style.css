@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav-bar {
+    background-color: aquamarine;
+}
+
+.main-nav-bar a {
+    text-decoration: none;
+    background-color: hsl(180, 100%, 25%);
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    /* padding: 8px; */
+    line-height: 50px;
+}
+
+.main-nav-bar a:hover {
+    border-bottom: 2px solid hsl(180, 100%, 75%);
+}
+
+/* Centring image with margin auto */
+/* the element should be a block in this case */
+/* section {
+    background-color: cadetblue;
+    text-align: center; 
+} 
+
+/* section img {
+    width: 80%;
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+} */
+
+
+/* Centring using grid */
+section {
+    background-color: cadetblue;
+    display: grid;
+    place-items: center;
+    height: 800px;
+}
+
+section img {
+    width: 80%;
+    height: 400px;
+    /* transition with 0.5 sec */
+    transition: all .5s;
+}
+
+/* Hover effect */
+section img:hover {
+    transform: scale(1.2);
+}
